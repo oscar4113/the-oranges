@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>about us</title>
+        <title>About us</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.png" sizes="32x32">
-        <link rel="stylesheet" href="./style.css">
+        <style>
+          /* Style the navigation bar */
+          .navbar {
+            overflow: hidden;
+            background-image: linear-gradient(120deg, #ff8c00, #ffffff);
+          }
+          
+          /* Navigation links */
+          .navbar a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+          }
+          
+          /* Change the link color on hover */
+          .navbar a:hover {
+            background-color: #ddd;
+            color: #333;
+          }
+          </style>
     </head>
 
     <body>
-        <!-- partial:index.partial.html -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<section class="top-nav">
-  <div>
-    <a href="index.html">
-        <img src="/images/favicon.png" width="85" height="85" alt="Home">
-        </a>
-  </div>
-  <input id="menu-toggle" type="checkbox" />
-  <label class='menu-button-container' for="menu-toggle">
-  <div class='menu-button'></div>
-</label>
-  <ul class="menu">
-    <a href="about.html"
-    <li>One</li>
-    </a>
-    <li>Two</li>
-    <li>Three</li>
-    <li>Four</li>
-    <li>Five</li>
-  </ul>
-</section>
-
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+      
     </body>
+
 </html>
