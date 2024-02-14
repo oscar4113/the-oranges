@@ -3,7 +3,22 @@
     <head>
         <title>The Oranges Wigan</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.png" sizes="32x32">
-        <link rel="stylesheet" href="./style.css">
+        
+/* Style the navigation menu for small screens when clicked on */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
     </head>
 
     <body>
